@@ -1,14 +1,9 @@
 # myGoProject(下载请根据分支版本最新的下载)
 
 ## 1. go版本介绍：go1.14
-  
 
-
-## 2. 前端 view html version  开源html 使用layui 
-
+## 2. 前端 view html version  开源html 使用layui
 http://localhost:8888/myproject/login.html
-
-![Image text](views/img/Readme_img_1.png)
 
 ## 3. 使用jwt 进行token验证 鉴权
 
