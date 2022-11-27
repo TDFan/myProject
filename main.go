@@ -10,11 +10,11 @@ import (
 	"myProject/routers"
 	"os/exec"
 	"runtime"
-	"time"
+	//"time"
 )
 
 func main() {
-	log.Info(time.Now().Format("2006-01-02 15:04:05") + "strart ......")
+	//log.Info(time.Now().Format("2006-01-02 15:04:05") + "strart ......")
 	flag.Parse()
 
 	cfg, err := ini.Load("conf/app.ini")
@@ -34,7 +34,7 @@ func main() {
 		panic(err1)
 	}
 	log.Info("strart ......")
-	fmt.Println("open", "http://127.0.0.1:8888/myproject/")
+	//fmt.Println("open", "http://127.0.0.1:8888/myproject/")
 }
 
 var commands = map[string]string{
