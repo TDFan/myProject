@@ -60,5 +60,7 @@ func cronInit() {
 // 加个定时器
 func myfunc() {
 	fmt.Println("5秒打印一次！！")
-	fmt.Println("切换到main")
+	fmt.Println("checkout test or main")
+	fmt.Println("checkout main or test")
+
 }
